@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "tp_tools:zz/do_not_run_or_the_pack_may_break/load",
+        "tp_tools:zz/do_not_run_or_the_pack_may_break/schedule"
+    ]
+}
