@@ -1,14 +1,14 @@
 {
     "pack": {
-        "pack_format": 15,
+        "pack_format": 48,
         "supported_formats": {
-            "min_inclusive": 15,
-            "max_inclusive": 41
+            "min_inclusive": 48,
+            "max_inclusive": 48
         },
         "description": [
             "",
             {
-                "text": "TP Tools 1.0.0 for MC 1.16.x",
+                "text": "TP Tools v1.2 for MC 1.21.x",
                 "color": "gold"
             }
         ]
