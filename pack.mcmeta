@@ -3,13 +3,24 @@
         "pack_format": 48,
         "supported_formats": {
             "min_inclusive": 48,
-            "max_inclusive": 48
+            "max_inclusive": 71
         },
         "description": [
             "",
             {
                 "text": "TP Tools v1.2 for MC 1.21.x",
                 "color": "gold"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": {
+                    "min_inclusive": 69,
+                    "max_inclusive": 2147483647
+                },
+                "directory": "overlay_69"
             }
         ]
     }
