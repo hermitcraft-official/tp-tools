@@ -1,0 +1,8 @@
+{
+    "values": [
+        {
+            "id": "tp_tools:about",
+            "required": false
+        }
+    ]
+}

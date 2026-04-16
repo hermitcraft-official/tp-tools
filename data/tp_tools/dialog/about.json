@@ -1,0 +1,53 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Tp Tools",
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": [
+                {
+                    "text": "Unlock recipes via a trigger: \n\n"
+                },
+                {
+                    "text": "`/trigger recipeunlock`",
+                    "color": "yellow"
+                }
+            ],
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "text": "By rx97",
+                "color": "gray"
+            },
+            "width": 300
+        }
+    ],
+    "actions": [
+        {
+            "label": "Website",
+            "action": {
+                "type": "open_url",
+                "url": "https://github.com/hermitcraft-official/tp-tools"
+            }
+        },
+        {
+            "label": "Issues",
+            "action": {
+                "type": "open_url",
+                "url": "https://github.com/hermitcraft-official/tp-tools/issues"
+            }
+        }
+    ],
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "smithed:data_packs"
+        },
+        "label": {
+            "translate": "gui.back"
+        },
+        "width": 200
+    }
+}

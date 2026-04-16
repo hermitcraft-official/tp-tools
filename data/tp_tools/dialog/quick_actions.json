@@ -1,0 +1,176 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Tp Tools Triggers",
+    "external_title": "Tp Tools",
+    "body": {
+        "type": "minecraft:plain_message",
+        "contents": "These triggers only function if you are in spectator mode."
+    },
+    "columns": 2,
+    "actions": [
+        {
+            "label": "Teleport to the overworld",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 2`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 2"
+            }
+        },
+        {
+            "label": "Teleport to the nether",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 3`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 3"
+            }
+        },
+        {
+            "label": "Teleport to the end",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 4`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 4"
+            }
+        },
+        {
+            "label": "Align to x=0 in block",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 5`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 5"
+            }
+        },
+        {
+            "label": "Align to x=0.5 in block",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 6`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 6"
+            }
+        },
+        {
+            "label": "Align to z=0 in block",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 7`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 7"
+            }
+        },
+        {
+            "label": "Align to z=0.5 in block",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 8`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 8"
+            }
+        },
+        {
+            "label": "Face perfect south",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 9`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 9"
+            }
+        },
+        {
+            "label": "Rotate 45 deg left",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 10`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 10"
+            }
+        },
+        {
+            "label": "Rotate 45 deg right",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools set 11`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools set 11"
+            }
+        },
+        {
+            "label": "Open tellraw menu in chat",
+            "tooltip": [
+                "",
+                {
+                    "text": "`/trigger tptools`",
+                    "color": "yellow"
+                }
+            ],
+            "action": {
+                "type": "minecraft:run_command",
+                "command": "/trigger tptools"
+            }
+        }
+    ],
+    "exit_action": {
+        "action": {
+            "type": "show_dialog",
+            "dialog": "minecraft:quick_actions"
+        },
+        "label": {
+            "translate": "gui.back"
+        },
+        "width": 200
+    }
+}
