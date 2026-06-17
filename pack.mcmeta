@@ -1,11 +1,11 @@
 {
     "pack": {
         "min_format": 101,
-        "max_format": 101,
+        "max_format": [107, 1],
         "description": [
             "",
             {
-                "text": "TP Tools for MC 26.1.x",
+                "text": "TP Tools for MC 26.x",
                 "color": "gold"
             }
         ]
